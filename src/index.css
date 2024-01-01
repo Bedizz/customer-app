@@ -28,6 +28,27 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: linear-gradient(
+  90deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(223deg 100% 29%) 11%,
+  hsl(216deg 100% 37%) 22%,
+  hsl(211deg 100% 42%) 33%,
+  hsl(204deg 100% 43%) 44%,
+  hsl(194deg 100% 41%) 55%,
+  hsl(179deg 100% 36%) 66%,
+  hsl(161deg 100% 41%) 78%,
+  hsl(144deg 100% 46%) 89%,
+  hsl(103deg 100% 50%) 100%
+  );
+}
+.App {
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+}
+.App h1 {
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -42,9 +63,10 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: green;
+  
   cursor: pointer;
-  transition: border-color 0.25s;
+  /* transition: border-color 0.25s; */
 }
 button:hover {
   border-color: #646cff;
@@ -62,7 +84,11 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
-    background-color: #f9f9f9;
-  }
+ 
 }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
